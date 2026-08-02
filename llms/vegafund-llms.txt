@@ -1,0 +1,19 @@
+# Vegafund (Roi)
+
+> Vegafund Inc built Roi (getroi.app), an AI-powered personal finance and investing app backed by 500 Global. Roi was acquired by OpenAI in 2025 and wound down operations, with its final day of service on October 15, 2025. The company publishes no public API, developer portal, or machine-readable surface; getroi.app is no longer reachable (TLS terminated at an unpublished Webflow proxy).
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + web.archive.org snapshot 20251119161726 of https://www.getroi.app/ -->
+
+## Company
+
+- [Website (offline)](https://getroi.app): Former product site for Roi; announcement of the OpenAI acquisition and shutdown was the final published page.
+- [Archived shutdown announcement](https://web.archive.org/web/20251119161726/https://www.getroi.app/): "Roi acquired by OpenAI" — service ended 2025-10-15; support contact was support@getroi.app.
+
+## APIs
+
+No public APIs. This profile exists in the API Evangelist network as a 500 Global portfolio lead; enrichment confirmed the company was acquired and has no API surface.
+
+## Artifacts
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/vegafund/refs/heads/main/apis.yml): Machine-readable company profile.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/vegafund/refs/heads/main/security/vegafund-domain-security.yml): Live DNS/TLS probe of getroi.app (HTTPS down; SPF and DMARC records still present).

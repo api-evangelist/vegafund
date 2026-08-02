@@ -1,19 +1,40 @@
 aid: vegafund
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vegafund.png
 name: Vegafund
-description: Vegafund is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vegafund Inc was the company behind Roi (getroi.app), an AI-powered personal
+  finance and investing app that delivered individually tailored insights, education,
+  and guidance in real time. A 500 Global portfolio company, Roi was acquired by OpenAI
+  in 2025 and wound down operations with a final day of service on October 15, 2025.
+  The company published no public API or developer program, and getroi.app is no longer
+  reachable.
 url: https://raw.githubusercontent.com/api-evangelist/vegafund/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Investing
+- Personal Finance
+- Artificial Intelligence
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vegafund-domain-security.yml
+- type: LLMsTxt
+  url: llms/vegafund-llms.txt
 - type: Website
   url: https://getroi.app
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
