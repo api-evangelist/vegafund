@@ -30,6 +30,9 @@ description: Vegafund Inc was the company behind Roi (getroi.app), an AI-powered
   The company published no public API or developer program, and getroi.app is no longer
   reachable.
 url: https://raw.githubusercontent.com/api-evangelist/vegafund/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company published no public API or developer program, and getroi.app is no longer reachable."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
