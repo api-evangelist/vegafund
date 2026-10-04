@@ -29,6 +29,7 @@ description: Vegafund Inc was the company behind Roi (getroi.app), an AI-powered
   in 2025 and wound down operations with a final day of service on October 15, 2025.
   The company published no public API or developer program, and getroi.app is no longer
   reachable.
+x-status: defunct
 url: https://raw.githubusercontent.com/api-evangelist/vegafund/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
@@ -49,6 +50,7 @@ tags:
 - Personal Finance
 - Artificial Intelligence
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
